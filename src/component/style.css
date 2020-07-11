@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkslateblue;
+    align-items: center;
+    min-height: 10vh;
+    color: white;
+}
+
+.nav-link{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+.module {
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg);
+    /* background-size: cover; */
+  }
+
+.darken {
+    background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg);
+  }
+
+  .color {
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+     }
+     .red {
+      background-image: 
+        linear-gradient(
+          rgba(255, 0, 0, 0.5),
+          rgba(255, 0, 0, 0.5)
+        ),
+        url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg);
+    }
+    .blue {
+      background-image: 
+        linear-gradient(
+          rgba(23, 15, 54, 0.5),
+          rgba(55, 140, 238, 0.5)
+        ),
+        url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg);
+    }
+
+    .firstPage {
+      background: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/red-light-background-merrymoonmary.jpg);
+      background-size: cover;
+      height: 100vh;
+    }
+
+    .title{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center  ;
+    transform: translate(-50%, -50%);
+    }
+
+    h1{
+      text-transform: uppercase;
+      font-weight: 800;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      white-space: nowrap;
+    }
+
+    p{
+      text-transform: initial;
+      margin: 0;
+      font-size: 3.3rem;
+    }

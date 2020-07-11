@@ -1,0 +1,33 @@
+.form-container{
+    background: #FFF;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    position: absolute;
+    top: 20vh;
+}
+
+h5{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: slateblue;
+}
+
+.btn-lg {
+    padding: .5rem 1rem;
+    margin-top: 35px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: white;
+    outline: none;
+    box-shadow: 0 0 0 0.1rem rgb(63, 63, 191);
+}
